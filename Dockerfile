@@ -7,3 +7,6 @@ FROM alpine:latest
 MAINTAINER Huub Daems <buuhsmead@gmail.com>
 
 RUN apk add --no-cache ansible
+
+WORKDIR /opt/ansible
+
